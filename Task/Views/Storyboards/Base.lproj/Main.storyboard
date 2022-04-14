@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Task List Table View Controller-->
+        <!--Tasks-->
         <scene sceneID="2tu-3u-aig">
             <objects>
                 <tableViewController id="NMX-MJ-MYM" customClass="TaskListTableViewController" customModule="Task" customModuleProvider="target" sceneMemberID="viewController">
@@ -44,7 +44,7 @@
                             <outlet property="delegate" destination="NMX-MJ-MYM" id="uLk-BC-cpj"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="P4V-pH-fP9">
+                    <navigationItem key="navigationItem" title="Tasks" id="P4V-pH-fP9">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="nqu-6U-N0U">
                             <connections>
                                 <segue destination="oEj-5N-f9a" kind="show" id="Jxz-ZC-bn4"/>
@@ -83,7 +83,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="r2o-9P-PiZ">
-                                        <rect key="frame" x="20" y="488" width="351" height="36"/>
+                                        <rect key="frame" x="19.5" y="488" width="351" height="36"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="36" id="ZM8-v4-0Dt"/>
                                         </constraints>
