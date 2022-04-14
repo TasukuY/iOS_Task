@@ -35,8 +35,8 @@ class TaskDetailViewController: UIViewController {
         }else{
             //add button tapped
             guard let name = taskNameTextField.text,
-                  let notes = taskNotesTextView.text,
-                  let dueDate = date else { return }
+                  let notes = taskNotesTextView.text else { return }
+            let dueDate = taskDueDatePicker.date
             TaskController.shared.createTaskWith(name: name, notes: notes, dueDate: dueDate)
         }
         
