@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Task{
+class Task: Codable{
     //MARK: - Properties
     var name: String
     var notes: String?
@@ -22,4 +22,10 @@ class Task{
         self.isComplete = false
     }
     
+}
+
+extension Task: Equatable{
+    static func == (lhs: Task, rhs: Task) -> Bool {
+        return lhs.name == rhs.name && lhs.notes == rhs.notes && lhs.dueDate == rhs.dueDate
+    }
 }

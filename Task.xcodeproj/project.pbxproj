@@ -15,6 +15,7 @@
 		C935992C2807D882002D1DE9 /* TaskListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935992B2807D882002D1DE9 /* TaskListTableViewController.swift */; };
 		C935992E2807DCAE002D1DE9 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935992D2807DCAE002D1DE9 /* TaskDetailViewController.swift */; };
 		C93599302807E0E9002D1DE9 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935992F2807E0E9002D1DE9 /* Task.swift */; };
+		C93599322807E1D1002D1DE9 /* TaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93599312807E1D1002D1DE9 /* TaskController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C935992B2807D882002D1DE9 /* TaskListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListTableViewController.swift; sourceTree = "<group>"; };
 		C935992D2807DCAE002D1DE9 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
 		C935992F2807E0E9002D1DE9 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C93599312807E1D1002D1DE9 /* TaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,8 @@
 		C93599272807D5B8002D1DE9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C93599292807D5C5002D1DE9 /* ViewControllers */,
 				C93599282807D5BE002D1DE9 /* ModelControllers */,
+				C93599292807D5C5002D1DE9 /* ViewControllers */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -108,6 +110,7 @@
 		C93599282807D5BE002D1DE9 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C93599312807E1D1002D1DE9 /* TaskController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				7EC8F555259B5AAD003641BD /* AppDelegate.swift in Sources */,
 				C93599302807E0E9002D1DE9 /* Task.swift in Sources */,
 				C935992E2807DCAE002D1DE9 /* TaskDetailViewController.swift in Sources */,
+				C93599322807E1D1002D1DE9 /* TaskController.swift in Sources */,
 				7EC8F557259B5AAD003641BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
