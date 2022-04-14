@@ -14,6 +14,7 @@
 		7EC8F561259B5AB0003641BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8F55F259B5AB0003641BD /* LaunchScreen.storyboard */; };
 		C935992C2807D882002D1DE9 /* TaskListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935992B2807D882002D1DE9 /* TaskListTableViewController.swift */; };
 		C935992E2807DCAE002D1DE9 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935992D2807DCAE002D1DE9 /* TaskDetailViewController.swift */; };
+		C93599302807E0E9002D1DE9 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935992F2807E0E9002D1DE9 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7EC8F562259B5AB0003641BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C935992B2807D882002D1DE9 /* TaskListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListTableViewController.swift; sourceTree = "<group>"; };
 		C935992D2807DCAE002D1DE9 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		C935992F2807E0E9002D1DE9 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		C935992A2807D5CC002D1DE9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C935992F2807E0E9002D1DE9 /* Task.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				C935992C2807D882002D1DE9 /* TaskListTableViewController.swift in Sources */,
 				7EC8F555259B5AAD003641BD /* AppDelegate.swift in Sources */,
+				C93599302807E0E9002D1DE9 /* Task.swift in Sources */,
 				C935992E2807DCAE002D1DE9 /* TaskDetailViewController.swift in Sources */,
 				7EC8F557259B5AAD003641BD /* SceneDelegate.swift in Sources */,
 			);
